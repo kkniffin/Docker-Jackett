@@ -16,7 +16,7 @@ EXPOSE 9117
 VOLUME /data/config
 VOLUME /data/app
 
-ADD start.sh /
+ADD files/start.sh /
 RUN chmod +x /start.sh
 
 WORKDIR /data/app/Jackett
